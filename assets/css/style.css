@@ -21,11 +21,16 @@ body {
     display: flex;
     flex-direction: column;
     color: #3a3a3a;
+    font-family: open-sans, sans-serif;
 }
 
 header {
     background-color: lightcoral;
     /* This is the header area */
+}
+
+h1 {
+    font-family: "DM Sans", open-sans, sans-serif;
 }
 
 main {
