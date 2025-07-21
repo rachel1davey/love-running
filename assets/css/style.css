@@ -112,4 +112,19 @@ nav {
     .nav-toggle-label {
         display: none;
     }
+    #logo {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    #main {
+        margin-top: 79px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    nav a:hover {
+            border-bottom: 1px solid #3a3a3a;
+
+    }
 }
