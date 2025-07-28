@@ -46,9 +46,43 @@ h1 {
 }
 
 main {
-    background-color: lightblue;
     /* This is the main content area */
     flex: 1 0 auto;
+    margin-top: 47px;
+}
+
+h1, h2, h3 {
+    font-family: "DM Sans", open-sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+/* hero */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero-image.webp) no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text {
+   width: 300px;
+   right: 50px; 
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
 }
 
 header a {
@@ -128,6 +162,8 @@ nav {
 
     }
 }
+
+
 
 /* footer */
 #social-networks {
