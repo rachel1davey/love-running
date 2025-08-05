@@ -24,6 +24,10 @@ body {
     font-family: open-sans, sans-serif;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 header {
     background-color: #ffffff;
     padding: 0 1rem;
