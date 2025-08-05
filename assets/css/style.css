@@ -173,6 +173,9 @@ nav {
     text-align: end;
     align-self: flex-end;
 }
+#photos {
+   column-count: 3; 
+}
 }
 
 @media screen and (min-width: 992px) {
@@ -180,6 +183,9 @@ nav {
             border-bottom: 1px solid #3a3a3a;
 
     }
+    #photos {
+   column-count: 4; 
+}
 }
 
 
@@ -284,4 +290,21 @@ nav {
 
 #times h3 {
     color: #fafafa;
+}
+
+/* gallery */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+
+}
+#photos {
+    line-height: 0;
+}
+
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
